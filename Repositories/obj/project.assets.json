@@ -1885,19 +1885,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\prramesh\\.nuget\\packages\\": {}
+    "C:\\Users\\snehaaj\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WebApi\\FoodieServices\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "C:\\WebApi\\FoodieServices\\Repositories\\Repositories.csproj",
-      "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
-      "outputPath": "C:\\WebApi\\FoodieServices\\Repositories\\obj\\",
+      "projectPath": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\Repositories\\Repositories.csproj",
+      "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1911,8 +1911,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\WebApi\\FoodieServices\\UserModel\\Models.csproj": {
-              "projectPath": "C:\\WebApi\\FoodieServices\\UserModel\\Models.csproj"
+            "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\UserModel\\Models.csproj": {
+              "projectPath": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\UserModel\\Models.csproj"
             }
           }
         }

@@ -10,10 +10,13 @@ namespace Repositories
     public class RestaurantRepository : IRestaurantRepository
     {
         private readonly RestaurantContext _rc;
+        
+        //private readonly ItemContext _ic=new ItemContext();
         public RestaurantRepository(RestaurantContext r)
         {
             _rc = r;
         }
+     
         public string PostRestaurantReq(RestaurantRequest r)
         {
             if (r != null)
@@ -27,5 +30,21 @@ namespace Repositories
                 return "No value";
             }
         }
+        public string AddItem(Item it)
+        {
+           if(it != null)
+            {
+                _rc.Item.Add(it);
+                _rc.SaveChanges();
+                return "Item Added";
+                
+            }
+            else
+            {
+               return "No Value";
+            }
+        }
+
+
     }
 }

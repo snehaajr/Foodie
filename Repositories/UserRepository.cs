@@ -28,6 +28,22 @@ namespace Repositories
             
         }
 
+
+        public List<Item> GetItem(string id)
+        {
+            List<Item> items = _fc.Item.ToList();
+            List<Item> ritems=new List<Item>();
+
+            for (int i = 0; i < items.Count; i++)
+            {
+                if (items[i].RestaurantId == id)
+                {
+                    ritems.Add(items[i]);
+                }
+            }
+            return ritems;
+        }
+
         //public bool ValidateUser(User u)
         //{
         //    if ((_userService.ValidateUser))

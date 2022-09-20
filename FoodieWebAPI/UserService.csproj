@@ -16,6 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ItemApiService\ItemApiService.csproj" />
+    <ProjectReference Include="..\RestaurantOwnerAPIService\RestaurantOwnerAPIService.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
     <ProjectReference Include="..\UserModel\Models.csproj" />
   </ItemGroup>

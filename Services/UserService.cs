@@ -1,4 +1,5 @@
-﻿using Repositories;
+﻿using Models;
+using Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,11 @@ namespace Services
         {
             r.AddUser(u);
             return true;
+        }
+
+        public List<Item> GetItem(string id)
+        {
+            return r.GetItem(id);
         }
     }
 }

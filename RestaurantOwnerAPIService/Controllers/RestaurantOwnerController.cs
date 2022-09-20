@@ -33,6 +33,12 @@ namespace RestaurantOwnerAPIService.Controllers
             return res.PostRequest(val);
 
         }
+        [HttpPost("PostItemRequest")]
+
+        public string PostItemRequest([FromBody] Item val)
+        {
+            return res.PostItem(val);
+        }
 
         // GET api/<RestaurantOwnerController>/5
         [HttpGet("{id}")]
@@ -52,6 +58,7 @@ namespace RestaurantOwnerAPIService.Controllers
         public void Put(int id, [FromBody] string value)
         {
         }
+       
 
         // DELETE api/<RestaurantOwnerController>/5
         [HttpDelete("{id}")]

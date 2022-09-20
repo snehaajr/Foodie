@@ -19,5 +19,9 @@ namespace Services
         {
             return rep.PostRestaurantReq(r);
         }
+        public string PostItem(Item i)
+        {
+            return rep.AddItem(i);
+        }
     }
 }

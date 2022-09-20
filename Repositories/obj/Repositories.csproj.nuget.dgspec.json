@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\Repositories\\Repositories.csproj": {}
+    "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\Repositories\\Repositories.csproj": {
+    "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\Repositories\\obj\\",
+        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
+        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\UserModel\\Models.csproj": {
-                "projectPath": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\UserModel\\Models.csproj"
+              "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj": {
+                "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj"
               }
             }
           }
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
             }
           },
           "imports": [
@@ -78,17 +82,17 @@
         }
       }
     },
-    "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\UserModel\\Models.csproj": {
+    "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\UserModel\\Models.csproj",
+        "projectUniqueName": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\UserModel\\Models.csproj",
-        "packagesPath": "C:\\Users\\snehaaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\snehaaj\\Priya_Foodie\\Foodie\\UserModel\\obj\\",
+        "projectPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\Models.csproj",
+        "packagesPath": "C:\\Users\\prramesh\\.nuget\\packages\\",
+        "outputPath": "C:\\training\\Main Project\\backend\\Foodie\\UserModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\snehaaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\prramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

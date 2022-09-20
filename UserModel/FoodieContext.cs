@@ -17,6 +17,7 @@ namespace Models
         
 
         public DbSet<User> Users {get;set;}
+        public DbSet<Item> Item {get;set;}
 
 
 

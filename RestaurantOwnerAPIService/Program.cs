@@ -12,6 +12,8 @@ builder.Services.AddDbContext<RestaurantContext>((options) => options.UseSqlServ
 builder.Services.AddScoped<IRestaurantOwnerService, RestaurantOwnerService>();
 builder.Services.AddScoped<IRestaurantRepository, RestaurantRepository>();
 
+// Item Context Declaration
+
 
 var app = builder.Build();
 
